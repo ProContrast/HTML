@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great');
 @import url('https://fonts.googleapis.com/css?family=Abel');
-@import url('https://fonts.googleapis.com/css?family=Alegreya|Alegreya+Sans|Merriweather|Merriweather+Sans|Nunito|Nunito+Sans|Quattrocento|Quattrocento+Sans|Roboto|Roboto+Mono|Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Nunito');
 @import url('https://fonts.googleapis.com/css?family=Faster+One');
 
 .ff {
@@ -29,6 +29,7 @@ html {
         -ms-user-select: none; /* Internet Explorer/Edge */
             user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome and Opera */
+font-family: sans-serif;
 }
 .finalblock {
   position: absolute;
@@ -384,7 +385,7 @@ mark {
   font-size: 20px;
   position: absolute;
   left: 100px;
-  top: 660px;
+  top: 640px;
 }
 
 strong {
@@ -407,7 +408,7 @@ strong {
   font-family: 'Faster One', 'Nunito';
   position: absolute;
   left: 470px;
-  top: 650px;
+  top: 640px;
 }
 .godmode:hover {
   background-color: rgba(255, 240, 0, 0.4);
