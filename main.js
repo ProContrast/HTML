@@ -262,7 +262,7 @@ mony.textContent = money;} }, 1);
 function godmode() {
 if (money >= 800) {
    changehtml.classList.add('goepic');
-  alert('You won the game!! Mess around with your ∞ Infinity ∞ Cookies +  100000000 Dough, and have fun :D')
+  alert('You won the game!! Thank you for playing. <3')
   var infinityYes = false;
     cookies = Number.POSITIVE_INFINITY;
     backcookies = Number.POSITIVE_INFINITY;
