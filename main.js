@@ -260,6 +260,9 @@ mony.textContent = money;} }, 1);
     cookiesoh.textContent = cookies;} }, (1000));
 
 function godmode() {
+if (money < 800) {
+  alert('This upgrade costs 800 Dough :o');
+}
 if (money >= 800) {
    changehtml.classList.add('goepic');
   alert('You won the game!! Thank you for playing. <3')
