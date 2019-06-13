@@ -275,3 +275,7 @@ if (money >= 800) {
 }
 
 }
+
+function notme() {
+alert('Click the `Make a Cookie` button, not me!')
+}
