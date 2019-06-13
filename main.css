@@ -11,7 +11,7 @@
   background-color: black;
   border: 1px solid white;
   text-decoration: none;
-  font-family: 'Nunito';
+  font-family: 'Abel';
   font-size: 20px;
   position: absolute;
   left: 570px;
@@ -47,7 +47,8 @@ font-family: sans-serif;
 }
 
 b {
-    font-family: 'Abel', 'Nunito';
+    font-family: 'Abel'
+;
     font-size: 35px;
     height: 200px;
 }
@@ -124,7 +125,7 @@ h1 {
   font-size: 40px;
 }
 #c {
-  font-family: 'Fredericka the Great', 'Nunito';
+  font-family: 'Fredericka the Great';
 }
 .choc {
   position: absolute;
@@ -168,7 +169,7 @@ h1 {
 }
 .small {
   font-size: 10px;
-  font-family: 'Nunito';
+  font-family: 'Abel';
 }
 
 .kool {
@@ -206,7 +207,7 @@ h1 {
   border: 1px solid white;
   border-bottom: 2px solid cyan;
   text-decoration: none;
-  font-family: 'Nunito', 'Nunito';
+  font-family: 'Abel';
   font-size: 20px;
   position: absolute;
   left: 570px;
@@ -226,7 +227,7 @@ h1 {
     border-bottom: 2px solid cyan;
 
   text-decoration: none;
-  font-family: 'Nunito', 'Nunito';
+  font-family: 'Abel';
   font-size: 20px;
   position: absolute;
   left: 10px;
@@ -237,7 +238,7 @@ h1 {
 em {
   font-weight: normal;
   font-size: 14px;
-  font-family: 'Nunito';
+  font-family: 'Abel';
 }
 
 .cents {
@@ -381,7 +382,7 @@ mark {
   border-bottom: 2px solid black;
   text-decoration: none;
   font-weight: normal;
-  font-family: 'Nunito', 'Nunito';
+  font-family: 'Abel';
   font-size: 20px;
   position: absolute;
   left: 100px;
@@ -405,7 +406,7 @@ strong {
   border: 3px solid black;
   text-decoration: none;
   font-weight: bold;
-  font-family: 'Faster One', 'Nunito';
+  font-family: 'Faster One';
   position: absolute;
   left: 470px;
   top: 640px;
