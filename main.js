@@ -1,4 +1,4 @@
-let money = 400;
+﻿let money = 400;
 let legit = 0;
 let truckie = document.querySelector('#truk');
 let changehtml = document.querySelector('html');
@@ -264,17 +264,10 @@ if (money >= 800) {
    changehtml.classList.add('goepic');
   alert('You won the game!! Mess around with your ∞ Infinity ∞ Cookies +  100000000 Dough, and have fun :D')
   var infinityYes = false;
-  setInterval(function(){
-    cookies = 100000000;
-    backcookies = 100000000;
-    money = 100000000;
-    cookiesoh.textContent = 'Infinity'; }, (1));
-  setInterval(function(){
-    cookies = 100000000;
-    backcookies = 100000000;
-    money = 100000000;
+    cookies = Number.POSITIVE_INFINITY;
+    backcookies = Number.POSITIVE_INFINITY;
+    money = Number.POSITIVE_INFINITY;
 
-    mony.textContent = 'money'; }, (1));
 
 }
 
