@@ -318,7 +318,7 @@ mony.textContent = money;} }, 1);
 
 function godmode() {
 if (money < 1000) {
-  alert('This upgrade costs 800 Dough :o');
+  alert('This upgrade costs 1000 Dough :o');
 }
 if (money >= 1000) {
    changehtml.classList.add('goepic');
