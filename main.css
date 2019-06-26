@@ -17,6 +17,20 @@
   left: 570px;
   top: 335px;
 }
+.theboxes {
+  border-bottom-right-radius: 30px;
+  border-top-left-radius: 30px;
+  padding: 5px 20px;
+  color: black;
+  background-color: white;
+  border: 5px solid orange;
+  text-decoration: none;
+  font-family: 'Abel';
+  font-size: 20px;
+  position: absolute;
+  left: 570px;
+  top: 400px;
+}
 
 
 
@@ -304,6 +318,18 @@ em {
   left: 130px;
   top: 450px;
 }
+.bike {
+  position: absolute;
+  left: 300px;
+  top: 400px;
+  display: none;
+}
+.bike2 {
+  position: absolute;
+  left: 50px;
+  top: 450px;
+  display: none;
+}
 .arrow {
   position: absolute;
   left: 430px;
@@ -396,20 +422,21 @@ strong {
 
 .godmode {
   border-radius: 5px;
-  padding-left: 19px;
-  padding-right: 67px;
+  padding-left: 150px;
+  padding-right: 200px;
   padding-top: 10px;
   padding-bottom: 10px;
   font-size: 50px;
   color: white;
+  text-align: center;
   background: repeating-linear-gradient(to left, rgba(255, 0, 0, 0.8), rgba(128, 0, 128, 0.8));
   border: 3px solid black;
   text-decoration: none;
   font-weight: bold;
   font-family: 'Faster One';
   position: absolute;
-  left: 470px;
-  top: 640px;
+  left: 50px;
+  top: 700px;
 }
 .godmode:hover {
   background-color: rgba(255, 240, 0, 0.4);
@@ -417,4 +444,76 @@ strong {
 
 .goepic {
   background: repeating-linear-gradient(to left, rgba(255, 165, 0, 0.8), rgba(244, 44, 146, 0.8));
+}
+.buybike {
+  border-radius: 5px;
+  padding: 10px 19px;
+  color: black;
+  border: 1px solid white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  position: absolute;
+  background: repeating-linear-gradient(to left, rgba(135, 206, 250, 0.8), rgba(20, 18, 255, 0.8));
+  text-decoration: none;
+  color: white;
+  left: 350px;
+  top: 640px;
+    font-family: 'Abel';
+}
+.buybike:hover {
+  background-color: rgba(255, 240, 0, 0.4);
+}
+.gone {
+  display: none;
+}
+.here {
+  display: block;
+}
+.here2 {
+  display: block;
+}
+.movearrow {
+  left: 570px;
+}
+s {
+  text-decoration: none;
+
+}
+q {
+  text-decoration: none;
+  quotes: none;
+
+}
+
+.gobikes {
+ animation: MoveDownBikes 5s linear;
+  display: block;
+  position: absolute;
+  left: 50px;
+  top: 450px;
+}
+@keyframes MoveDownBikes {
+  100%, 100% {
+    left: 50px;
+  }
+  100%, 100% {
+    left: 750px;
+  }
+}
+
+.gobikerrrs {
+ animation: MoveDownBikerrrs 5s linear;
+  display: block;
+  position: absolute;
+  left: 300px;
+  top: 400px;
+}
+@keyframes MoveDownBikerrrs {
+  0%, 100% {
+    left: 300px;
+  }
+  100%, 100% {
+    left: 1000px;
+  }
 }
