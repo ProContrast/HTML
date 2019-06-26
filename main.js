@@ -362,3 +362,31 @@ function bikebought() {
    }
   }
   }
+  window.onload = function() {
+
+	setTimeout(function() {
+
+		// reference to <head>
+		var head = document.getElementsByTagName('head')[0];
+
+		// a new CSS
+		var css = document.createElement('link');
+		css.type = "text/css";
+		css.rel  = "stylesheet";
+		css.href = "http://domain.tld/preload.css";
+
+		// a new JS
+		var js  = document.createElement("script");
+		js.type = "text/javascript";
+		js.src  = "http://domain.tld/preload.js";
+
+		// preload JS and CSS
+		head.appendChild(css);
+		head.appendChild(js);
+
+		// preload image
+		new Image().src = "http://domain.tld/preload.png";
+
+	}, 1000);
+
+};
