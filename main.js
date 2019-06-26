@@ -250,9 +250,10 @@ if (cratecounter == 4) {
 if (boxnumber == 9) {
   confirm('You have finished a truck-load of cookies. Press the GREEN ARROW to send them on their way!')
   truckie.src="onetruck4.png.png";
+  if (maxfill == 2) {
     bike2.src="trailer.png.png";
         bike.src="big.png.png";
-
+}
   boximage.src="box0.jpg.PNG";
   boxnumber= 0;
   legit = 1;
@@ -277,9 +278,13 @@ if (boxnumber == 9) {
 function driving() {
   if (legit == 1) {
     legit = 0;
+    if (maxfill != 2) {
     truckie.classList.add('gomed');
+  }
+    if (maxfill == 2) {
     bike2.classList.add('gobikes');
     bike.classList.add('gobikerrrs');
+  }
 
 
 
