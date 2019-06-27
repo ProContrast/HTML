@@ -17,7 +17,9 @@ window.onload = function startRolling() {
 cooks.style.transform = 'translate(0, 0) rotate(1000000030deg)'
 }
 
-
+function notme() {
+  alert('Click the `MAKE A COOKIE` button, not me!');
+}
 // dd
 if (confirm("Welcome to your new Cookie Factory. If you don't know how to play, click `OK`. Otherwise, click `Cancel` to skip ahead :)")) {
   alert('In this game, you use Dough to create cookies, then store and deliver your cookies through filling Boxes, Crates, then Trucks.');
@@ -335,6 +337,11 @@ endgame = 3;
     cookies = Number.POSITIVE_INFINITY;
     backcookies = Number.POSITIVE_INFINITY;
     money = Number.POSITIVE_INFINITY;
+    i=0;
+setInterval(function(){
+document.body.style.filter='hue-rotate(' + i + 'deg)'
+i++
+})
 
 
 }
